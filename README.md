@@ -25,11 +25,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
+- Created Virtual Network and Virtual Machines Deployed a Virtual Network (VNet) in Microsoft Azure and created two Virtual Machines (VM1 and VM2) within the same subnet to simulate internal network communication.
+- Configured Network Security Group (NSG) Created and attached a Network Security Group to control inbound and outbound traffic at the subnet or network interface level.
+- Defined and Modified Security RulesConfigured NSG rules to allow or deny specific traffic types (e.g., ICMP, RDP, SSH) using priority, port numbers, and protocols.
+- Tested and Validated Network Traffic Performed connectivity tests (ping, RDP/SSH) between the virtual machines to verify that NSG rules were correctly allowing or blocking traffic.
+  
 <h2>Actions and Observations</h2>
 
 <p>
